@@ -1,0 +1,34 @@
+.recommendation {
+  margin-top: 100px;
+  background-color: #FAFBFB;
+  padding-top: 80px;
+}
+
+.recommendation_title {
+  font-size: 38px;
+}
+
+.recommendation_label {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 5px 40px 1px rgba(0,0,0,0.15);
+}
+
+.recommendation_label a {
+  text-decoration: none;
+  color: #70c84a;
+}
+
+.recommendation_label_text {
+  color: #7F8C8D;
+}
+
+.recommendation_customers {
+  margin-top: 30px;
+}
+
+.recommendation_customers img {
+  width: 100%;
+}

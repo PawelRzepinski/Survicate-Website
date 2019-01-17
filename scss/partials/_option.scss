@@ -1,0 +1,18 @@
+.options {
+  margin-top: 100px;
+}
+.option_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  h3 {
+    font-size: 28px;
+    color: #29292A;
+  }
+
+  p {
+    color: #7F8C8D;
+  }
+}

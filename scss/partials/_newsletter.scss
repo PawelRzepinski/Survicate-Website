@@ -1,0 +1,36 @@
+.newsletter {
+
+}
+.newsletter_text {
+  font-size: 48px;
+}
+
+.newsletter_send {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.newsletter_send_btn button {
+  border-radius: 25px;
+  border: none;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  background: linear-gradient(270deg, rgba(168,189,39,1) 13%, rgba(112,200,74,1) 79%);
+  box-shadow: 0px 10px 20px 0px rgba(112,200,74,0.5);
+  color: white;
+  cursor: pointer;
+}
+
+.newsletter_send input {
+  width: 400px;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: #FAFBFB;
+  position: relative;
+}
+
+
+
