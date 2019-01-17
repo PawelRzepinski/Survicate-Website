@@ -1,5 +1,7 @@
 footer {
   background-color: #29292A;
+  margin: 0;
+  padding: 0;
 }
 
 .footer_contactTitle {
@@ -35,3 +37,58 @@ footer {
   padding-bottom: 20px;
 }
 
+.footer_list_icon {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.footer_list_icon li {
+  padding: 30px;
+}
+
+.facebook {
+  color: #3E5294;
+}
+
+.twitter {
+  color: #1DA1F2;
+}
+
+.linkedin {
+  color: #0065A1;
+}
+
+.google {
+  color: #DB4437;
+}
+
+.footer_icon p {
+  color: #7F8C8D;
+  font-size: 13px;
+  text-align: center;
+}
+
+.footer_button{
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer_button button {
+  text-transform: uppercase;
+  margin-top: 30px;
+  padding: 10px 60px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(270deg, rgba(168,189,39,1) 13%, rgba(112,200,74,1) 79%);
+  color: white;
+  cursor: pointer;
+}
+
+.footer_copyright {
+  color: #7F8C8D;
+  text-align: center;
+  padding-bottom: 30px;
+}
