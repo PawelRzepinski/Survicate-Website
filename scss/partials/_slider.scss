@@ -38,6 +38,8 @@
   flex-direction: column;
   width: 80%;
   margin-left: 50px;
+  font-size: 22px;
+  color: #7F8C8D;
 }
 .slider_active_content_signature {
   padding: 50px;
@@ -50,4 +52,10 @@
 .slider_active_content_picture {
   padding-left: 20px;
 }
+
+/*
+.slider_active_content_img img {
+  height: 100%;
+}
+*/
 
