@@ -20,9 +20,11 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .even {
     display: flex;
     flex-direction: column-reverse;
   }
 }
+
+

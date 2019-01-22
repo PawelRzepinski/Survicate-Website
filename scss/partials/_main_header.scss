@@ -1,21 +1,10 @@
-.main_header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Open Sans', sans-serif;
-  margin-top: 20px;
-}
-
-.main_header_logo {
-  margin-right: 12vw;
-}
-
 .main_header_logo img {
-
+ width: 100%;
 }
 
 .main_header_nav_list {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   list-style: none;
   text-transform: uppercase;
@@ -25,7 +14,7 @@
 
 .main_header_nav_list li {
   font-size: 13px;
-  padding: 0 1em;
+  padding: 0 10px;
 }
 
 .main_header_nav_list li:nth-child(7) {

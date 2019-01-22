@@ -39,3 +39,12 @@
 .newsletter_send input:focus {
   outline: none;
 }
+
+@media only screen and (max-width: 1024px){
+  .newsletter_send_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+}

@@ -32,3 +32,19 @@
 .recommendation_customers img {
   width: 100%;
 }
+
+@media only screen and (max-width: 1024px){
+  .recommendation_customers {
+    padding: 0 10px;
+  }
+
+  .recommendation_customers img {
+    width: 100%;
+  }
+
+  .recommendation_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
