@@ -46,5 +46,14 @@
     justify-content: center;
     flex-direction: column;
   }
+}
 
+@media only screen and (max-width: 768px){
+  .newsletter_send input{}
+  .newsletter_send_btn {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 400px;
+  }
 }

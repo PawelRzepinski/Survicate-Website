@@ -5,7 +5,7 @@ footer {
 }
 
 .footer_contactTitle {
-  color: #7F8C8D;
+  color: $textcolor1;
   font-size: 28px;
   text-align: center;
   font-weight: lighter;
@@ -13,7 +13,7 @@ footer {
 }
 
 .footer_email {
-  color: #9CC255;
+  color: $textcolor2;
   text-align: center;
 }
 
@@ -27,13 +27,13 @@ footer {
 }
 
 .footer_list a {
-  color: #9CC255;
+  color: $textcolor2;
   text-decoration: none;
 }
 
 .footer_list_title {
   text-transform: uppercase;
-  color: #7F8C8D;
+  color: $textcolor1;
   padding-bottom: 20px;
 }
 
@@ -88,11 +88,18 @@ footer {
 }
 
 .footer_copyright {
-  color: #7F8C8D;
+  color: $textcolor1;
   text-align: center;
   padding-bottom: 30px;
 }
 
-@media only screen and (max-width: 1024px) {
+/*@media only screen and (max-width: 1024px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}*/
 
+@media only screen and (max-width: 768px){
+  margin-top: 200px;
 }
