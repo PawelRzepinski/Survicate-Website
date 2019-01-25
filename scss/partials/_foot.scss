@@ -20,6 +20,9 @@ footer {
 .footer_list {
   list-style: none;
   font-size: 14px;
+  margin: 0 auto;
+  max-width: 16.6%;
+
 }
 
 .footer_list li {
@@ -93,6 +96,9 @@ footer {
   padding-bottom: 30px;
 }
 
+.footer_lists{
+  display: flex;
+}
 /*@media only screen and (max-width: 1024px) {
   .row {
     display: flex;
