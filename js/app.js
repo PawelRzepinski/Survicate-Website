@@ -37,4 +37,20 @@ document.addEventListener("DOMContentLoaded", function () {
     prevBtn.addEventListener("click", clickPrev);
     nextBtn.addEventListener("click", clickNext);
 
+
+    /* pop-up*/
+
+    const logIn = document.querySelector(".boldLi");
+    const popup = document.querySelector(".popup");
+    const popupBtn = document.querySelector(".popupBtn");
+
+    logIn.addEventListener("click", function () {
+        console.log("działa kliknięcie");
+        popup.style.display = "flex";
+    });
+
+    popupBtn.addEventListener("click", function () {
+       this.classList.toggle("shadow");
+       console.log("cień działa");
+    })
 });
