@@ -1,27 +1,40 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-   const col = document.querySelectorAll("footer .col-2");
-    console.log(col);
-    /*
-   window.addEventListener("resize", function () {
-       if (window.innerWidth <= 1024){
-           col.classList.toggle("col-6");
-           console.log("to działa");
-       }
-   }); */
+    const nextBtn = document.querySelector(".slider_next");
+    const prevBtn = document.querySelector(".slider_prev");
+    const list = document.querySelectorAll(".slider_content_active li");
+    var index = 0;
 
 
-    function myFunction(x) {
-        if (x.matches) { // If media query matches
-            col.classList.toggle("col-4")
-            /*document.body.style.backgroundColor = "yellow";*/
-        } else {
-            document.body.style.backgroundColor = "pink";
+    list[index].classList = "visible";
+    console.log(list[index]);
+
+    function clickPrev(){
+        list[index].classList.toggle("visible");
+        index --;
+
+        if(index <= 0){
+            index = list.length - 1;
         }
+
+        list[index].classList.toggle("visible");
+        console.log("był klik prev");
     }
 
-    var x = window.matchMedia("(max-width: 1024px)");
-    myFunction(x); // Call listener function at run time
-    x.addListener(myFunction) // Attach listener function on state changes
+    function clickNext(){
+        list[index].classList.toggle("visible");
+        index++;
+
+        if(index >= list.length){
+            index = 0;
+        }
+
+        list[index].classList.toggle("visible");
+        console.log("był klik next");
+        console.log(index);
+    };
+
+    prevBtn.addEventListener("click", clickPrev);
+    nextBtn.addEventListener("click", clickNext);
 
 });
