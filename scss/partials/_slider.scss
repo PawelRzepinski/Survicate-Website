@@ -20,12 +20,20 @@
   width: 100%;
   box-shadow: -1px 13px 91px 9px rgba(0,0,0,0.3);
   border-radius: 25px;
+  margin: 0 30px;
 }
 
-.slider_prev button,
-.slider_next button {
+.slider_prev,
+.slider_next {
   background: none;
   border: 0;
+  cursor: pointer;
+  color: $textcolor2;
+}
+
+.slider_prev,
+.slider_next:focus {
+  outline: none;
 }
 
 .slider_slide {
