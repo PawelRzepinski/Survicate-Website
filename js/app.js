@@ -45,12 +45,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const popupBtn = document.querySelector(".popupBtn");
 
     logIn.addEventListener("click", function () {
-        console.log("działa kliknięcie");
         popup.style.display = "flex";
     });
 
     popupBtn.addEventListener("click", function () {
        this.classList.toggle("shadow");
-       console.log("cień działa");
     })
 });
