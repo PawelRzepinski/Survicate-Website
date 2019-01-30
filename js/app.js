@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    /* slider */
+
     const nextBtn = document.querySelector(".slider_next");
     const prevBtn = document.querySelector(".slider_prev");
     const list = document.querySelectorAll(".slider_content_active li");
@@ -32,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         list[index].classList.toggle("visible");
         console.log("był klik next");
         console.log(index);
-    };
+    }
 
     prevBtn.addEventListener("click", clickPrev);
     nextBtn.addEventListener("click", clickNext);
@@ -45,6 +47,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const popupBtn = document.querySelector(".popupBtn");
 
     logIn.addEventListener("click", function () {
+        popup.style.display = "flex";
+    });
+
+    /* pop-up 768px*/
+
+    const logInSmall = document.querySelector(".boldLiSmall");
+
+    logInSmall.addEventListener("click", function () {
         popup.style.display = "flex";
     });
 
@@ -62,4 +72,12 @@ document.addEventListener("DOMContentLoaded", function () {
             signPopup.style.display = "flex"
         }
     }
+
+    /* sign up free button 768px*/
+
+    const freeBtnSmall = document.querySelector(".btnSmall");
+
+    freeBtnSmall.addEventListener("click", function () {
+        signPopup.style.display = "flex";
+    });
 });

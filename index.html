@@ -12,31 +12,16 @@
 <section class="signUp">
     <div class="sign_popup">
         <div class="sign_popup_content">
-            <div class="form_sex">
-                <form class="sex">
+            <div class="form_gender">
+                <form class="gender">
                     <label>Male
-                        <input type="radio" name="sex">
+                        <input type="radio" name="gender">
                     </label>
                     <label>Female
-                        <input type="radio" name="sex">
+                        <input type="radio" name="gender">
                     </label>
                 </form>
             </div>
-            <!--
-            <form>
-                <label>
-                    <input type="text" placeholder="Name">
-                </label>
-                <label>
-                    <input type="text" placeholder="Surname">
-                </label>
-                <label>
-                    <input type="number" placeholder="Phone">
-                </label>
-                <label>
-                    <input type="email" placeholder="E-mail">
-                </label>
-            </form>-->
             <span class="input input--ruri">
 					<input class="input__field input__field--ruri" type="text" id="input-26"/>
 					<label class="input__label input__label--ruri" for="input-26">
@@ -81,12 +66,18 @@
     <div class="popup">
         <div class="popup_content">
             <form>
-                <label>
-                    <input type="email" class="email" placeholder="E-mail address">
-                </label>
-                <label>
-                    <input type="password" class="password" placeholder="password">
-                </label>
+                <span class="input input--ruri">
+					<input class="input__field input__field--ruri" type="email" id="input-26"/>
+					<label class="input__label input__label--ruri" for="input-26">
+						<span class="input__label-content input__label-content--ruri">E-mail</span>
+					</label>
+            </span>
+                <span class="input input--ruri">
+					<input class="input__field input__field--ruri" type="password" id="input-26"/>
+					<label class="input__label input__label--ruri" for="input-26">
+						<span class="input__label-content input__label-content--ruri">Password</span>
+					</label>
+            </span>
             </form>
             <button class="popupBtn shadow">Log In</button>
         </div>
