@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         list[index].classList.toggle("visible");
-        console.log("był klik prev");
+        console.log(list[index] + "   był klik prev");
     }
 
     function clickNext(){
