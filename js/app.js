@@ -50,5 +50,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     popupBtn.addEventListener("click", function () {
        this.classList.toggle("shadow");
-    })
+    });
+
+    /* sign up free button*/
+
+    const freeBtn = document.querySelectorAll(".free");
+    const signPopup = document.querySelector(".sign_popup");
+
+    for (let i = 0; i < freeBtn.length; i++) {
+        freeBtn[i].onclick = function () {
+            signPopup.style.display = "flex"
+        }
+    }
 });
