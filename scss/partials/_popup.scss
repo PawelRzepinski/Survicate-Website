@@ -33,33 +33,6 @@
   align-items: center;
 }
 
-/*
-.popup label {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.popup input {
-  width: 80%;
-  border-radius: 25px;
-  border: none;
-  background: black;
-  color: #FAFBFB;
-  padding: 15px;
-  margin: 10px;
-}
-
-.popup input,
-.popupBtn:focus {
-  outline: none;
-}
-
-::placeholder {
-  color: $textcolor2;
-}
-*/
-
 .popupBtn {
   text-transform: uppercase;
   padding: 15px 70px;
