@@ -1,9 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-/*
-
-
-    /!* slider *!/
+    /* slider */
 
     const nextBtn = document.querySelector(".slider_next");
     const prevBtn = document.querySelector(".slider_prev");
@@ -42,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     nextBtn.addEventListener("click", clickNext);
 
 
-    /!* pop-up*!/
+    /* pop-up*/
 
     const logIn = document.querySelector(".boldLi");
     const popup = document.querySelector(".popup");
@@ -52,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
         popup.style.display = "flex";
     });
 
-    /!* pop-up 768px*!/
+    /* pop-up 768px*/
 
     const logInSmall = document.querySelector(".boldLiSmall");
 
@@ -64,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
        this.classList.toggle("shadow");
     });
 
-    /!* sign up free button*!/
+    /* sign up free button*/
 
     const freeBtn = document.querySelectorAll(".free");
     const signPopup = document.querySelector(".sign_popup");
@@ -75,29 +72,15 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    /!* sign up free button 768px*!/
+    /* sign up free button 768px*/
 
     const freeBtnSmall = document.querySelector(".btnSmall");
 
     freeBtnSmall.addEventListener("click", function () {
         signPopup.style.display = "flex";
     });
-*/
 
     /* popup input*/
-
-    const inputs = document.querySelectorAll("#input-26");
-    const val = inputs.value;
-
-    for (let j=0; j<inputs.length; j++){
-        if (this.value !== ""){
-            this.style.fontSize = "60"
-        }
-    }
-
-
-
-
 
 
 });
